@@ -1,0 +1,114 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.main {
+  width: 100%;
+  height: 100%;
+}
+
+.nav {
+  width: 100%;
+  height: 100px;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  padding: 0;
+  border-bottom: 3px solid #dadada;
+}
+
+.ri-arrow-drop-down-fill {
+  font-size: 1vw;
+}
+
+.serv1 i {
+  margin: 0;
+}
+
+.ri-menu-line {
+  font-size: 5vw;
+  font-weight: 800;
+  display: none;
+}
+
+.brandname {
+  color: black;
+  font-size: 2vw;
+  font-weight: 700;
+  padding: 0 0 0 20px;
+}
+
+.meals {
+  display: flex;
+  gap: 4vw;
+  padding: 0 20px 0 0;
+}
+
+
+.meals h4 {
+  color: black;
+  font-size: 1vw;
+}
+
+
+
+.left {
+  background-color: blue;
+  width: 50%;
+  height: 100%;
+}
+
+.right {
+  background-color: red;
+  width: 50%;
+  height: 100%;
+}
+
+.dropdown1 ul {
+  list-style: none;
+}
+
+.dropdown1 ul li {
+  padding: 10px 30px;
+}
+
+.dropdown1 {
+  width: 10vw;
+  background-color: black;
+  position: absolute;
+  margin: 59px 0 0 120px;
+}
+
+.wrapper{
+  display:none;
+}
+
+
+
+
+@media (max-width: 600px) {
+  .nav {
+    background-color: lightseagreen;
+    height: 60px;
+    width: 100%;
+  }
+
+  .brandname {
+    font-size: 5vw;
+    color: #fff;
+  }
+
+  .meals h4 {
+    color: black;
+    font-size: 1.5vw;
+    display: none;
+  }
+
+  .ri-menu-line {
+    display: block;
+    color: #fff;
+    cursor:auto;
+    cursor:pointer;
+  }
+}
